@@ -14,8 +14,8 @@ k = 0.01 # cost of self-control
 g = 0.8
 
 w_max = 7
-nk = 100
-ns = 100
+nk = 1000
+ns = 1000
 x_max = w_max # for graph
 
 def maximize(w, xi, d, R, v, w_grid,ik,ns):
